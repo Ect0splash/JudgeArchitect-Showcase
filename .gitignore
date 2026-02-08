@@ -1,0 +1,25 @@
+# OS / Editor
+.DS_Store
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Runtime / temp / logs (NE PAS PUBLIER)
+runtime/
+logs/
+tmp/
+cache/
+uploads/
+reports/
+
+# Secrets
+.env
+*.env
+**/*secrets*
+**/*token*
+**/*apikey*
+**/*api_key*
+**/*credentials*
