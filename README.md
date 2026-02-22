@@ -14,7 +14,9 @@ JudgeArchitect est le **cerveau opérateur** de Judge.
 
 Il sert à :
 - piloter les actions du système Judge
+
 - fournir une interface claire (UI / API)
+
 - orchestrer les modules et moteurs
 - intégrer l’assistance IA locale
 - garantir des workflows sûrs et traçables
