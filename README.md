@@ -31,8 +31,10 @@ JudgeArchitect ne remplace pas Judge :
 
 Utilisateur
 ↓
+
 JudgeArchitect (UI / Agent / Orchestration)
 ↓
+
 Judge Core & Modules (Check / Heal / Backup / Report / IA)
 
 
