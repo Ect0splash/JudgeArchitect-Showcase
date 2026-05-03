@@ -1,129 +1,199 @@
-# 🧱 Vision — JudgeArchitect
+# Vision — JudgeArchitect
+
+> Un atelier IA local-first pour concevoir, comprendre, documenter et piloter des projets techniques sans perdre le contrôle humain.
+
+---
+
+## En bref
+
+**JudgeArchitect** est né d’un besoin simple : rendre les projets techniques plus lisibles, plus structurés et plus faciles à faire évoluer.
+
+Quand un projet grandit, il devient vite difficile de suivre :
+
+- ce qui a été décidé ;
+- ce qui a été modifié ;
+- ce qui reste à faire ;
+- ce qui peut être automatisé ;
+- ce qui doit absolument rester validé par l’humain.
+
+JudgeArchitect répond à ce besoin en proposant un environnement de travail assisté par IA, pensé pour aider à organiser, comprendre, documenter et superviser un projet technique.
+
+Ce n’est pas une IA autonome qui agit seule.
+
+C’est un cadre de travail où l’IA assiste, explique et propose, pendant que l’humain garde la décision.
+
+---
 
 ## Pourquoi JudgeArchitect existe
 
-JudgeArchitect est né d’un constat simple :
-un système puissant sans **interface claire**, sans **orchestration lisible**
-et sans **point de décision humain** devient vite opaque et risqué.
+De nombreux outils techniques deviennent puissants, mais aussi difficiles à lire.
 
-JudgeArchitect est la **couche architecte** de l’écosystème Judge.
-Il relie l’humain aux moteurs techniques de Judge
-sans exposer directement la complexité interne.
+On peut avoir des scripts, des fichiers, des modules, des logs, des rapports, des outils d’analyse, de la documentation et de l’IA, mais perdre progressivement la vision globale.
 
----
+JudgeArchitect part de ce constat :
 
-## Un rôle d’orchestrateur, pas d’exécuteur aveugle
+> Un système puissant n’a de valeur que s’il reste compréhensible, contrôlable et vérifiable.
 
-JudgeArchitect ne remplace pas les moteurs de Judge.
-Il les **coordonne**, les **structure** et les **rend pilotables**.
+L’objectif du projet est donc de créer un poste de pilotage clair pour accompagner le développement et la maintenance de projets techniques.
 
-Ses responsabilités principales :
-- offrir un **point d’entrée unique** (UI / API)
-- centraliser les décisions humaines
-- orchestrer les workflows techniques
-- exposer l’état réel du système
-- garantir la lisibilité des actions
-
-JudgeArchitect ne cherche jamais la vitesse maximale,
-mais la **compréhension et le contrôle**.
+JudgeArchitect aide à transformer un environnement complexe en espace de travail plus lisible.
 
 ---
 
-## L’humain au centre du système
+## Une interface pour comprendre
 
-JudgeArchitect est conçu autour d’un principe fondamental :
+L’interface de JudgeArchitect n’est pas pensée comme une simple couche visuelle.
+
+Elle sert à rendre le travail plus clair.
+
+Elle doit permettre de :
+
+- comprendre l’état d’un projet ;
+- suivre une session de travail ;
+- visualiser les éléments importants ;
+- organiser les outils disponibles ;
+- retrouver les décisions et les actions passées ;
+- éviter les modifications faites à l’aveugle ;
+- accompagner l’utilisateur dans les étapes sensibles.
+
+L’objectif n’est pas de cacher la complexité.
+
+L’objectif est de la rendre lisible.
+
+---
+
+## Une IA pour assister, pas pour décider
+
+JudgeArchitect intègre une couche d’assistance IA appelée **BMO**.
+
+BMO est pensé comme un compagnon de travail technique.
+
+Son rôle est d’aider à :
+
+- reformuler un besoin ;
+- expliquer un contexte ;
+- analyser une documentation ;
+- résumer une session ;
+- proposer une prochaine étape ;
+- accompagner la réflexion ;
+- aider à préparer des modifications.
+
+BMO ne remplace pas l’utilisateur.
+
+Il n’a pas vocation à décider seul ni à appliquer des actions sensibles sans contrôle.
+
+La philosophie reste simple :
 
 > L’humain décide.  
-> Le système exécute.  
-> L’IA assiste.
-
-Chaque action significative :
-- est contextualisée
-- peut être expliquée
-- peut être validée ou refusée
-- laisse une trace exploitable
+> L’IA explique et assiste.  
+> Les outils exécutent dans un cadre contrôlé.
 
 ---
 
-## Une interface pour comprendre, pas pour masquer
+## Les principes du projet
 
-L’interface de JudgeArchitect n’est pas décorative.
-Elle sert à :
-- visualiser l’état du système
-- comprendre les dépendances
-- suivre les workflows en cours
-- lire des rapports exploitables
-- identifier rapidement les risques
+### 1. Garder l’humain au centre
 
-L’objectif n’est pas de “simplifier à l’extrême”,
-mais de **rendre la complexité lisible**.
+JudgeArchitect est conçu pour renforcer la compréhension et la décision humaine.
 
----
+L’IA peut aider à analyser, résumer ou proposer, mais la validation reste humaine.
 
-## Un agent IA intégré et maîtrisé
+### 2. Travailler en local-first
 
-JudgeArchitect intègre un **agent IA local** (B.M.O / Ollama)
-comme **copilote technique**.
+Le projet privilégie une approche locale afin de garder un maximum de contrôle sur l’environnement, les données et les workflows.
 
-Son rôle :
-- expliquer des états complexes
-- assister le diagnostic
-- produire des synthèses lisibles
-- aider à la prise de décision
+Le local-first permet de mieux maîtriser ce qui est traité, conservé et exécuté.
 
-Garanties :
-- IA locale par défaut
-- aucune autonomie critique
-- recommandations explicites
-- validation humaine systématique
+### 3. Rendre les actions explicables
 
----
+Une action utile doit pouvoir être comprise.
 
-## Le dossier `tools/` comme socle fonctionnel
+JudgeArchitect cherche donc à rendre les étapes plus lisibles : pourquoi une proposition est faite, ce qu’elle implique, et ce que l’utilisateur peut choisir de faire ensuite.
 
-Dans l’architecture réelle de JudgeArchitect,
-le dossier `tools/` est placé **à la racine**.
+### 4. Avancer de manière non destructive
 
-Il regroupe :
-- des briques fonctionnelles
-- des moteurs transverses
-- des outils d’analyse et d’assistance
+Le projet favorise une logique prudente : préparer, expliquer, relire, valider.
 
-JudgeArchitect agit comme un **chef d’orchestre** :
-il invoque ces outils selon le contexte,
-sans exposer leur implémentation interne.
+L’objectif est d’éviter les modifications invisibles ou irréversibles.
+
+### 5. Construire de façon modulaire
+
+JudgeArchitect repose sur une logique de briques séparées.
+
+Chaque partie doit pouvoir évoluer progressivement, sans fragiliser l’ensemble.
+
+Cette approche rend le système plus durable, plus maintenable et plus adaptable.
 
 ---
 
-## Séparation claire des responsabilités
+## Ce que JudgeArchitect apporte
 
-JudgeArchitect respecte une séparation stricte :
+JudgeArchitect sert de socle pour travailler plus efficacement sur des projets techniques.
 
-- **Judge Core & Modules**  
-  → exécutent les actions techniques
+Il peut accompagner :
 
-- **JudgeArchitect**  
-  → orchestre, expose, explique et sécurise
+- la conception d’outils ;
+- la documentation ;
+- l’automatisation ;
+- la supervision ;
+- l’analyse de fichiers ;
+- la gestion du contexte ;
+- la préparation de modifications ;
+- la création de solutions logicielles sur mesure.
 
-Cette séparation permet :
-- une évolution indépendante
-- une meilleure sécurité
-- une architecture durable
+Il permet de rapprocher plusieurs mondes :
+
+- développement ;
+- IA locale ;
+- automatisation ;
+- DevOps ;
+- documentation ;
+- architecture système ;
+- interface utilisateur.
+
+L’idée n’est pas d’accumuler des fonctions.
+
+L’idée est de créer un environnement cohérent où chaque brique aide à mieux comprendre, mieux décider et mieux construire.
 
 ---
 
-## Une vision long terme
+## Une frontière claire entre public et privé
 
-JudgeArchitect est pensé pour évoluer vers :
-- des interfaces plus riches
-- des workflows plus guidés
-- une meilleure observabilité
-- des agents IA spécialisés
+Ce dépôt public présente la vision de JudgeArchitect.
 
-Sans jamais perdre :
-- la maîtrise humaine
-- la traçabilité
-- la sécurité
+Il ne présente pas le code cœur, les workflows avancés, les configurations sensibles, les données privées ou les usages métier spécifiques.
+
+Cette séparation est volontaire.
+
+Elle permet de partager l’approche générale du projet tout en protégeant :
+
+- la propriété intellectuelle ;
+- la sécurité ;
+- les données ;
+- les implémentations internes ;
+- les futurs usages du système.
+
+JudgeArchitect peut donc être présenté publiquement comme une démarche, une vision et une méthode, sans exposer les parties sensibles du projet réel.
+
+---
+
+## Vision long terme
+
+JudgeArchitect est pensé comme un atelier évolutif.
+
+À long terme, l’objectif est de renforcer :
+
+- la lisibilité des projets complexes ;
+- l’assistance IA contextualisée ;
+- la documentation automatique et contrôlée ;
+- la supervision locale ;
+- les workflows guidés ;
+- la création d’outils sur mesure ;
+- la sécurité des actions techniques.
+
+Mais une règle doit rester constante :
+
+> Plus le système devient puissant, plus il doit rester clair, contrôlable et explicable.
 
 ---
 
@@ -131,12 +201,12 @@ Sans jamais perdre :
 
 JudgeArchitect, c’est :
 
-- 🧱 une couche d’architecture et d’orchestration
-- 🧠 un point de décision humain
-- 🤖 un agent IA local, maîtrisé
-- 🧰 un orchestrateur d’outils (`tools/`)
-- 🔍 une interface orientée compréhension
+- un atelier IA local-first ;
+- une interface de pilotage intelligente ;
+- une assistance IA maîtrisée avec BMO ;
+- une méthode de travail orientée clarté, sécurité et validation humaine ;
+- un socle pour créer, documenter, automatiser et faire évoluer des projets techniques.
 
-Une brique essentielle pour rendre Judge
-**pilotable, lisible et sûr**.
+La vision du projet est simple :
 
+> Construire des outils plus intelligents, sans abandonner la compréhension humaine.
