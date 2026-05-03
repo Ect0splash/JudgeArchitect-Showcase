@@ -1,148 +1,291 @@
-# ❓ FAQ — JudgeArchitect
+# FAQ — JudgeArchitect
 
-Cette FAQ répond aux questions les plus fréquentes
-lorsqu’un recruteur, un responsable technique
-ou un auditeur découvre **JudgeArchitect**.
+Cette FAQ répond aux questions les plus fréquentes lorsqu’une personne découvre JudgeArchitect depuis LinkedIn, GitHub ou un échange professionnel.
 
----
-
-## ❓ Qu’est-ce que JudgeArchitect exactement ?
-
-JudgeArchitect est la **couche d’orchestration et d’interface**
-de l’écosystème Judge.
-
-Il permet :
-- de piloter Judge de manière lisible
-- de centraliser la décision humaine
-- d’orchestrer des workflows sécurisés
-- d’intégrer une assistance IA locale
-
-JudgeArchitect n’exécute pas directement les actions techniques :
-il **oriente, supervise et explique**.
+L’objectif est de présenter le projet clairement, sans exposer le code privé, les workflows sensibles ou les usages internes avancés.
 
 ---
 
-## ❓ Quelle est la différence entre Judge et JudgeArchitect ?
+## Qu’est-ce que JudgeArchitect ?
 
-- **Judge**  
-  → exécute, vérifie, corrige, sauvegarde, rapporte
+**JudgeArchitect** est mon atelier personnel de conception assistée par IA.
 
-- **JudgeArchitect**  
-  → orchestre, expose, sécurise et rend compréhensible
+Il m’aide à structurer, documenter, superviser et faire évoluer des projets techniques à travers une interface locale, une logique modulaire et une assistance IA contrôlée.
 
-JudgeArchitect est le **point de contact humain**
-entre l’utilisateur et les moteurs Judge.
+L’idée n’est pas de créer une IA autonome qui agit seule.
 
----
-
-## ❓ Pourquoi le code n’est-il pas public ?
-
-Pour des raisons de sécurité et de cohérence :
-
-- JudgeArchitect interagit avec des environnements réels
-- certaines parties manipulent des flux sensibles
-- une exposition partielle serait risquée ou trompeuse
-
-Ce dépôt est une **vitrine documentaire**,
-pas un dépôt de distribution de code.
+L’idée est de créer un environnement où l’IA aide à comprendre, organiser et proposer, pendant que l’humain garde la décision.
 
 ---
 
-## ❓ Peut-on accéder au code dans un cadre professionnel ?
+## À quoi sert JudgeArchitect concrètement ?
 
-Oui.
+JudgeArchitect sert de poste de pilotage pour travailler plus efficacement sur des projets techniques.
 
-Un accès privé peut être accordé :
-- dans un processus de recrutement
-- pour un audit technique
-- dans un cadre de collaboration professionnelle
+Il peut aider à :
 
-Les modalités sont définies au cas par cas.
+- comprendre la structure d’un projet ;
+- organiser les idées et les fichiers ;
+- suivre une session de travail longue ;
+- documenter les décisions ;
+- préparer des évolutions ;
+- superviser certains éléments techniques ;
+- accompagner la création d’outils ou de logiciels ;
+- garder une trace claire de ce qui est fait.
+
+C’est un environnement pensé pour gagner en clarté, en méthode et en fiabilité.
 
 ---
 
-## ❓ JudgeArchitect est-il un produit fini ?
+## Quelle est la différence entre Judge, JudgeArchitect et BMO ?
+
+On peut résumer simplement :
+
+- **Judge** représente l’écosystème global et la vision du projet.
+- **JudgeArchitect** est l’atelier de pilotage, de documentation et de conception.
+- **BMO** est la couche d’assistance IA utilisée pour accompagner l’analyse, la réflexion et la compréhension.
+
+JudgeArchitect est donc l’espace dans lequel l’utilisateur travaille, tandis que BMO aide à interpréter, reformuler, résumer ou proposer des pistes.
+
+---
+
+## Qui est BMO ?
+
+**BMO** est l’assistant IA intégré à JudgeArchitect.
+
+Son rôle est d’aider l’utilisateur à travailler plus efficacement, par exemple en :
+
+- expliquant un contexte ;
+- résumant une discussion ;
+- aidant à comprendre un fichier ;
+- reformulant une demande ;
+- proposant une prochaine étape ;
+- accompagnant une réflexion technique.
+
+BMO n’est pas présenté comme une IA qui décide seule.
+
+Il accompagne le travail humain.
+
+---
+
+## JudgeArchitect remplace-t-il un développeur ?
 
 Non.
 
-JudgeArchitect est un **laboratoire structuré**
-et un projet long terme.
-Il évolue par itérations contrôlées,
-avec une attention forte portée à la lisibilité,
-la sécurité et la traçabilité.
+JudgeArchitect ne remplace pas un développeur, un administrateur système ou un architecte technique.
+
+Il sert plutôt d’assistant de travail, capable d’aider à mieux comprendre, organiser, documenter et préparer certaines actions.
+
+La philosophie du projet est claire :
+
+> L’humain décide.  
+> L’IA assiste.  
+> Les outils exécutent dans un cadre contrôlé.
 
 ---
 
-## ❓ Quelle place occupe l’IA dans JudgeArchitect ?
+## Est-ce que JudgeArchitect peut créer des logiciels ?
 
-L’IA est utilisée comme **assistant local**.
+JudgeArchitect sert de socle de travail pour concevoir plus efficacement des outils, interfaces, automatisations ou logiciels sur mesure.
 
-Elle sert à :
-- expliquer des états complexes
-- reformuler des diagnostics
-- proposer des options
+Il ne s’agit pas d’un générateur magique d’applications.
 
-Elle ne :
-- prend aucune décision autonome
-- n’exécute aucune action
-- ne remplace jamais l’humain
+C’est plutôt un environnement qui aide à passer plus proprement de l’idée à la structure, puis de la structure à la réalisation.
+
+Il peut donc accompagner la création de solutions pour des besoins personnels, professionnels ou internes à une organisation.
 
 ---
 
-## ❓ Pourquoi une IA locale plutôt qu’un service cloud ?
+## À qui peut servir ce type d’approche ?
 
-Pour garantir :
-- la confidentialité
-- le contrôle total des données
-- l’indépendance réseau
-- la compréhension des traitements
+L’approche JudgeArchitect peut intéresser :
 
-Les services cloud peuvent exister
-comme options explicites,
-mais ne sont jamais obligatoires.
+- les développeurs ;
+- les profils DevOps ;
+- les administrateurs systèmes et réseaux ;
+- les personnes qui construisent des outils internes ;
+- les indépendants qui veulent structurer leurs projets ;
+- les petites structures qui ont besoin d’automatiser certaines tâches ;
+- les équipes qui veulent intégrer l’IA sans perdre le contrôle humain.
 
----
-
-## ❓ JudgeArchitect est-il orienté production ?
-
-JudgeArchitect applique une **rigueur production**
-(garde-fous, validations, reporting),
-mais reste volontairement
-un **environnement expérimental contrôlé**.
-
-Il sert à :
-- tester des architectures
-- valider des pratiques
-- construire des systèmes fiables dans le temps
+Le projet démontre surtout une méthode : utiliser l’IA comme un soutien contrôlé dans un environnement technique.
 
 ---
 
-## ❓ Est-ce un projet solo ?
+## Pourquoi parler de local-first ?
 
-Oui, à l’origine.
+Le local-first signifie que l’environnement local reste central.
 
-Mais JudgeArchitect est conçu pour être :
-- compris par d’autres
-- auditable
-- transmissible
-- évolutif dans un cadre collaboratif
+Cette approche permet de garder davantage de contrôle sur :
 
----
+- les fichiers ;
+- les données ;
+- les traitements ;
+- les outils ;
+- les workflows ;
+- les validations humaines.
 
-## ❓ À qui s’adresse JudgeArchitect ?
+L’objectif n’est pas de refuser tous les services externes.
 
-- DevOps / SRE
-- architectes systèmes
-- profils orientés automatisation
-- équipes explorant l’IA responsable
-- environnements nécessitant contrôle et traçabilité
+L’objectif est de ne pas dépendre automatiquement d’un service cloud pour chaque action sensible.
 
 ---
 
-## ❓ Quel est l’objectif à long terme ?
+## L’IA utilisée est-elle uniquement locale ?
 
-Construire une **interface de contrôle fiable**
-entre l’humain, les systèmes et l’IA,
-capable de rendre des environnements complexes
-**compréhensibles, sûrs et maîtrisés**.
+JudgeArchitect est pensé autour d’une logique d’IA locale et contrôlée.
 
+Des services externes peuvent être envisagés dans certains cas, mais ils doivent rester explicites, encadrés et utilisés avec prudence.
+
+Le principe important est le suivant :
+
+> ce qui est sensible doit rester maîtrisé.
+
+---
+
+## JudgeArchitect agit-il automatiquement sur les fichiers ou les systèmes ?
+
+Le projet est conçu autour d’une approche prudente.
+
+Les actions sensibles doivent être préparées, comprises et validées.
+
+L’objectif est d’éviter les modifications invisibles, irréversibles ou appliquées sans compréhension.
+
+JudgeArchitect privilégie donc une logique non destructive :
+
+- analyser ;
+- expliquer ;
+- proposer ;
+- préparer ;
+- faire valider ;
+- seulement ensuite exécuter si nécessaire.
+
+---
+
+## Pourquoi le code n’est-il pas public ?
+
+Le code cœur n’est pas public pour plusieurs raisons :
+
+- protéger la propriété intellectuelle ;
+- éviter l’exposition de workflows sensibles ;
+- ne pas publier de logique interne incomplète ou mal réutilisée ;
+- préserver la sécurité du projet ;
+- éviter toute confusion entre une vitrine documentaire et une version installable.
+
+Ce dépôt est un **showcase public**, pas un dépôt open source de distribution.
+
+---
+
+## Est-ce que JudgeArchitect est open source ?
+
+Non.
+
+Le dépôt public présente la vision, les principes et la documentation générale du projet.
+
+Le code source principal reste privé.
+
+Cela permet de partager l’approche et la philosophie sans exposer les parties sensibles ou spécifiques au fonctionnement réel.
+
+---
+
+## Peut-on accéder au code dans un cadre professionnel ?
+
+Un accès privé peut être envisagé au cas par cas, par exemple dans un contexte de recrutement, d’audit ou de collaboration professionnelle.
+
+Dans ce cas, l’accès doit être encadré, limité et adapté au besoin réel.
+
+Le dépôt public reste volontairement séparé du cœur privé du projet.
+
+---
+
+## Est-ce que le projet est terminé ?
+
+Non.
+
+JudgeArchitect est un projet actif, en évolution continue.
+
+Il a déjà atteint une structure solide, mais il continue de progresser par étapes :
+
+- amélioration de l’interface ;
+- meilleure documentation ;
+- stabilisation des workflows ;
+- renforcement de la sécurité ;
+- enrichissement de l’assistance IA ;
+- amélioration de la mémoire et du contexte.
+
+L’objectif est de construire un socle durable, pas une simple démonstration rapide.
+
+---
+
+## Est-ce un projet personnel ou professionnel ?
+
+JudgeArchitect est né comme un projet personnel, développé entièrement par moi.
+
+Mais sa logique peut servir à des usages professionnels : création d’outils internes, automatisation, assistance technique, documentation, supervision ou conception de logiciels sur mesure.
+
+Le projet représente donc à la fois une démarche personnelle, une preuve de compétences et un socle de création.
+
+---
+
+## Qu’est-ce que ce projet démontre ?
+
+JudgeArchitect démontre notamment des compétences en :
+
+- architecture logicielle ;
+- développement web local ;
+- automatisation ;
+- scripting ;
+- intégration IA ;
+- documentation technique ;
+- logique DevOps ;
+- structuration de projet ;
+- sécurité et validation humaine ;
+- conception d’outils modulaires.
+
+Il montre aussi une capacité à construire un outil long terme, maintenable et évolutif.
+
+---
+
+## Pourquoi ne pas montrer plus de captures ou de détails ?
+
+Certaines parties du projet contiennent des informations sensibles :
+
+- chemins locaux ;
+- données de travail ;
+- logs ;
+- modules privés ;
+- workflows internes ;
+- configurations ;
+- éléments liés à des projets personnels ou professionnels.
+
+Les captures publiques doivent donc être filtrées, floutées ou simplifiées.
+
+L’objectif est de montrer la vision sans exposer l’atelier réel.
+
+---
+
+## Peut-on utiliser JudgeArchitect tel quel ?
+
+Non, pas depuis ce dépôt public.
+
+Ce dépôt sert à présenter le projet, pas à fournir une version installable.
+
+Une version utilisable ou démontrable doit rester encadrée, préparée et nettoyée afin de ne pas exposer d’éléments privés ou sensibles.
+
+---
+
+## Quelle est la vision à long terme ?
+
+La vision long terme est de faire de JudgeArchitect un environnement de travail intelligent, local et contrôlé, capable d’aider à concevoir, documenter, automatiser et superviser des projets techniques.
+
+Le but n’est pas de rendre l’humain dépendant de l’IA.
+
+Le but est de créer un cadre où l’IA augmente la compréhension, accélère certaines tâches et aide à construire plus proprement.
+
+---
+
+## En résumé, comment présenter JudgeArchitect simplement ?
+
+JudgeArchitect est un atelier IA local-first qui m’aide à construire, documenter, organiser et faire évoluer des projets techniques.
+
+Il combine développement, automatisation, documentation, supervision et assistance IA, tout en gardant l’humain au centre de la décision.
