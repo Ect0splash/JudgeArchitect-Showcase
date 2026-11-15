@@ -1,45 +1,17 @@
-# 🔐 Security & Access Policy — JudgeArchitect
+# Sécurité et confidentialité
 
-This repository is a **public documentation and showcase space**
-for **JudgeArchitect**, the orchestration and interface layer of the Judge ecosystem.
+Ce dépôt est une **vitrine documentaire publique** de JudgeArchitect. Il ne contient pas le code exécutable du logiciel.
 
-No executable core code is exposed here.
+## Périmètre public
 
----
+Les informations publiées ici sont limitées à une présentation générale du projet.
 
-## 🔒 Why the core code is private
+Le code source, les configurations de travail, les données privées, les accès et les éléments techniques sensibles ne font pas partie de ce dépôt.
 
-The core repositories of JudgeArchitect are intentionally private in order to:
+## Signalement
 
-- protect intellectual property
-- prevent unsafe or partial reuse
-- avoid exposure of sensitive runtime logic or credentials
-- preserve the coherence of the overall system
+Merci de ne pas publier de secrets, d'informations personnelles ou de détails de vulnérabilité dans une issue publique.
 
-JudgeArchitect interacts with real environments.
-Publishing executable code would create unnecessary risks.
+## Licence
 
----
-
-## 🔑 Private access
-
-Access to private repositories can be granted in specific contexts:
-
-- recruitment processes
-- technical audits
-- professional collaboration or partnerships
-
-Requests can be made directly via GitHub or LinkedIn.
-
----
-
-## 🛡️ Data & secrets
-
-This public repository contains:
-- no runtime data
-- no logs
-- no tokens or credentials
-- no environment configuration
-
-All sensitive elements are excluded by design.
-
+Les documents de présentation restent soumis aux conditions précisées dans [LICENSE](LICENSE).
