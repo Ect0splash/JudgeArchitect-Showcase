@@ -1,184 +1,49 @@
-# JudgeArchitect — Atelier IA local-first
+# JudgeArchitect
 
-> Concevoir, comprendre, documenter et automatiser des projets techniques sans perdre le contrôle humain.
+### Environnement intelligent de développement et de conception logicielle
 
----
+**JudgeArchitect** est un logiciel en développement, conçu pour accompagner la création, l'organisation et l'évolution de projets informatiques.
 
-## En une phrase
+Il propose une approche centralisée du travail technique, associant outils de développement, assistance par intelligence artificielle et gestion de projets au sein d'un environnement cohérent.
 
-**JudgeArchitect** est mon environnement personnel de conception assistée par IA.
-
-Il m’aide à structurer, analyser, documenter, superviser et faire évoluer des projets techniques à travers une approche **locale, modulaire, traçable et contrôlée par l’humain**.
-
-Ce dépôt public est une **vitrine documentaire** : il présente la vision, les principes et l’approche générale du projet, sans exposer le code cœur ni les éléments sensibles.
+L'objectif est de simplifier les processus de conception et de développement, tout en conservant une maîtrise complète des opérations.
 
 ---
 
-## Pourquoi ce projet existe
+## Présentation
 
-Plus un projet technique grandit, plus il devient difficile de garder une vision claire :
+JudgeArchitect vise à réunir plusieurs aspects du travail logiciel dans un même environnement :
 
-- les fichiers se multiplient ;
-- les décisions se perdent ;
-- les corrections deviennent risquées ;
-- la documentation prend du retard ;
-- l’IA peut aider, mais elle doit rester encadrée.
+- **Développement** : accompagner la conception et l'évolution de solutions logicielles.
+- **Organisation** : structurer les projets, les tâches et les informations.
+- **Intelligence artificielle** : apporter une assistance contextuelle à l'analyse et au travail technique.
+- **Supervision** : faciliter la compréhension de l'état des projets et des opérations.
+- **Documentation** : favoriser le suivi des décisions et la continuité du travail.
 
-JudgeArchitect est né de ce besoin : créer un espace de travail intelligent où l’IA aide à comprendre, organiser et proposer, mais où l’humain garde toujours la décision finale.
+Le logiciel s'appuie sur une philosophie de conception modulaire, avec une attention particulière portée à la fiabilité, à la confidentialité et au contrôle des actions.
 
----
+## Philosophie
 
-## Ce que JudgeArchitect permet
+**Comprendre avant d'agir. Automatiser sans perdre le contrôle.**
 
-JudgeArchitect sert de poste de pilotage pour accompagner le travail technique au quotidien.
+JudgeArchitect est développé avec une conviction : l'intelligence artificielle doit accompagner les capacités humaines, et non remplacer leur jugement.
 
-Il est pensé pour aider à :
+Chaque évolution du logiciel s'inscrit dans une démarche de maîtrise, de cohérence et de pérennité.
 
-- comprendre la structure d’un projet ;
-- suivre le contexte d’une session longue ;
-- préparer des évolutions de manière contrôlée ;
-- documenter les choix, les tests et les décisions ;
-- superviser l’état d’un environnement technique ;
-- organiser des outils et modules dans une interface claire ;
-- intégrer une assistance IA locale dans un workflow de développement ;
-- garder une logique de validation humaine avant toute action sensible.
+## Développement
 
-L’objectif n’est pas de remplacer le développeur.
+JudgeArchitect est un projet personnel et privé, en évolution continue.
 
-L’objectif est de lui donner un environnement plus clair, plus fiable et plus intelligent pour travailler.
+Ses fonctionnalités sont développées et améliorées progressivement. Certaines restent expérimentales.
+
+Ce dépôt GitHub constitue exclusivement une **vitrine de présentation**.
+
+Le code source, l'architecture détaillée et les composants internes ne sont pas rendus publics.
 
 ---
 
-## Principes clés
+**Développé par [Ect0splash](https://github.com/Ect0splash)**
 
-### Humain dans la boucle
+*Développement logiciel · Architecture systèmes · DevOps · Intelligence artificielle*
 
-L’IA peut analyser, résumer, proposer ou expliquer.
-
-Mais les décisions sensibles restent validées par l’utilisateur.
-
-### Local-first
-
-JudgeArchitect est pensé pour fonctionner autour d’un environnement local, avec une priorité donnée au contrôle, à la confidentialité et à la maîtrise des données.
-
-### Modulaire
-
-Le système est organisé en briques séparées afin de pouvoir évoluer progressivement sans casser l’ensemble.
-
-### Explicable
-
-Chaque action ou recommandation doit pouvoir être comprise, vérifiée et documentée.
-
-### Non destructif
-
-Les modifications importantes doivent être préparées, relues et validées avant application.
-
----
-
-## IA locale & assistance
-
-JudgeArchitect intègre une couche d’assistance IA appelée **BMO**.
-
-BMO est pensé comme un assistant de travail, pas comme un décideur autonome.
-
-Son rôle est d’aider à :
-
-- reformuler un besoin ;
-- comprendre un fichier ou une documentation ;
-- garder un contexte de travail ;
-- produire une synthèse ;
-- proposer une prochaine étape ;
-- accompagner une réflexion technique.
-
-L’idée centrale reste simple :
-
-> L’IA explique et assiste.  
-> L’humain comprend et décide.  
-> Les outils exécutent dans un cadre contrôlé.
-
----
-
-## Ce que ce projet démontre
-
-Ce projet met en pratique plusieurs compétences :
-
-- conception d’architecture logicielle modulaire ;
-- développement d’interface web locale ;
-- intégration d’IA dans un workflow technique ;
-- automatisation et scripting ;
-- structuration documentaire ;
-- logique de supervision ;
-- gestion du contexte et de la mémoire de travail ;
-- approche DevOps local-first ;
-- sécurité, traçabilité et validation humaine.
-
-JudgeArchitect est aussi un socle qui me permet de créer plus efficacement des logiciels, interfaces, automatisations ou outils internes adaptés à des besoins concrets.
-
----
-
-## Ce que contient ce dépôt
-
-Ce dépôt contient uniquement des éléments de présentation :
-
-- vision du projet ;
-- principes d’architecture ;
-- documentation publique ;
-- workflows décrits de manière générale ;
-- roadmap ;
-- FAQ ;
-- ressources visuelles publiques.
-
----
-
-## Ce que ce dépôt ne contient pas
-
-Ce dépôt ne contient volontairement pas :
-
-- le code source privé ;
-- les fichiers runtime ;
-- les logs ;
-- les tokens, secrets ou clés API ;
-- les configurations sensibles ;
-- les données personnelles ;
-- les modules métier privés ;
-- les workflows internes détaillés.
-
-Le cœur technique de JudgeArchitect reste privé afin de protéger la propriété intellectuelle, la sécurité et les usages réels du système.
-
----
-
-## Documentation
-
-Pour découvrir le projet progressivement :
-
-- [`docs/00_vision.md`](docs/00_vision.md) — vision générale du projet ;
-- [`docs/01_architecture.md`](docs/01_architecture.md) — principes d’architecture ;
-- [`docs/02_ui.md`](docs/02_ui.md) — logique d’interface ;
-- [`docs/03_agent_workflows.md`](docs/03_agent_workflows.md) — workflows et validation humaine ;
-- [`docs/04_integrations.md`](docs/04_integrations.md) — intégrations et environnement ;
-- [`docs/05_roadmap.md`](docs/05_roadmap.md) — évolutions prévues ;
-- [`docs/99_faq.md`](docs/99_faq.md) — questions fréquentes.
-
----
-
-## État du projet
-
-JudgeArchitect est un projet personnel actif, en évolution continue.
-
-Le dépôt public sert à présenter la vision, la méthode et les principes du projet, mais ne constitue pas une version installable.
-
----
-
-## Auteur
-
-**Maxime Bommert — Ect0splash**
-
-Développement • Automatisation • IA locale • DevOps • Architecture systèmes
-
----
-
-## Note
-
-JudgeArchitect est un projet privé présenté publiquement sous forme documentaire.
-
-Toute reproduction, réutilisation ou adaptation du concept, des documents ou des éléments visuels nécessite une autorisation explicite.
+© 2026. Tous droits réservés.
